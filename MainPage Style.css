@@ -1,0 +1,202 @@
+main {
+  font-family: 'Poiret One', cursive;
+  color: black;
+  opacity:100%;
+}
+
+footer {
+  font-family: 'Poiret One', cursive;
+  color: black;
+  margin-bottom: -35px;
+  margin-top: -30px;
+}
+
+header nav{
+  font-family: 'Poiret One', cursive;
+  opacity: 50%;
+}
+
+body {
+background-color: #ffffff;
+background-image: url(./docs//low_poly_abstract_design_3012.jpg);
+background-size: cover;
+
+}
+
+#Intro h1{
+    text-align: center;
+    font-family: 'Allura', cursive;
+    font-size: 80px;
+    margin-top: 85px;
+    margin-bottom: 45px;
+    color: #29a2ab;
+}
+
+#Intro h3{
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  margin-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Intro p{
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0, 0, 0);
+    opacity: 60%;
+}
+
+.col-lg-4 svg {
+  width: 20%;
+  height: 20%;
+  margin-top: 60px;
+  opacity: 90%;
+  fill: url(#my-cool-gradient) #007991;
+}
+
+.col-lg-4 h4 {
+  margin-top: 25px;
+  color: black;
+}
+
+.col-lg-4 p {
+color: #000000;
+}
+
+.col-lg-4 a {
+  background-color: white;
+  opacity: 60%;
+  color: #4d4963;
+}
+
+.col-lg-4 a:hover {
+  background-color: #8e9394;
+  color: white;
+  opacity: 60%;
+}
+
+.row h2 {
+  margin-top: 20px;
+}
+
+.col-md-7 h2{
+  color: #29a2ab;
+  margin-bottom: 20px;
+  font-style: bold;
+}
+
+.col-md-7 p {
+  font-size: 25px;
+}
+.col-md-7 li {
+  font-size: 25px;
+}
+.videotext {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.other {
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+
+.order-md-2 h2 {
+  color: #29a2ab;
+  text-align: right;
+  margin-top: -10px;
+}
+
+#img1 {
+  background-image: url(./docs/209F6159-F2B6-4B46-AF2E-CFBA007E7444.JPG);
+  fill: url(./docs/209F6159-F2B6-4B46-AF2E-CFBA007E7444.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+#img2 {
+  background-image: url(./docs/CruiseShip.jpeg);
+  fill: url(./docs/CruiseShip.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -50px;
+  border-radius: 15px;
+}
+
+/* BOOTSTRAP CONTENT BELOW*/
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  
+  /* Center align the text within the three columns */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  /* rtl:begin:remove */
+  .featurette-heading {
+    letter-spacing: -.05rem;
+  }
+  
+  /* rtl:end:remove */
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+

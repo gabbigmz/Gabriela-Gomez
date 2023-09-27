@@ -1,0 +1,43 @@
+main, header {
+  font-family: 'Poiret One', cursive;
+}
+
+footer{
+  margin-top: 80px;
+  font-family: 'Poiret One', cursive;
+  margin-bottom: 30px;
+}
+
+footer hr{
+  margin-bottom: 50px;
+}
+
+header nav{
+  opacity: 50%;
+}
+
+body, html{
+  background-color: #ffffff;
+  background-image: url(./docs/low_poly_abstract_design_3012.jpg);
+  background-size: cover;
+
+}
+
+.py-5 h1{
+  font-size: 50px;
+  margin-top: 15px;
+  margin-bottom: 45px;
+  color: #29a2ab;
+}
+.py-5 p {
+  font-size: 25px;
+}
+
+.card-body h5 {
+  color: #29a2ab;
+}
+
+.card-body p{
+  font-family: 'Poiret One', cursive;
+  font-size: 17px;
+}
